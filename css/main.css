@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+
+.hem {
+    height: 1em;
+}
+
+header h1 {
+    margin-top: 25px; margin-bottom: 25px;
+}
+
+article div.width-help span {
+    width: 60px;
+}
