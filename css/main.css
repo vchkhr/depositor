@@ -6,6 +6,10 @@
     height: 1em;
 }
 
+.center {
+    text-align: center;
+}
+
 header h1 {
     margin-top: 25px; margin-bottom: 25px;
 }
