@@ -45,7 +45,7 @@ function calculate() {
             for (i = 1; i <= term; i++) {
                 subTotal += profitMonth;
                 subProfit = subTotal - sum;
-                monthlyText += "m’th " + i + ": +" + Math.floor(subProfit * 100) / 100 + " " + currencySym + " =" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
+                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + "=" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
             }
 
             var profit = subProfit;
@@ -57,7 +57,7 @@ function calculate() {
             for (i = 1; i <= term; i++) {
                 subProfit = subTotal * rate * 0.01 / 12;
                 subTotal += subProfit;
-                monthlyText += "m’th " + i + ": +" + Math.floor(subProfit * 100) / 100 + " " + currencySym + " =" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
+                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + "=" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
             }
 
             var profit = subTotal - sum;
@@ -94,3 +94,11 @@ function calculate() {
         }
     }
 }
+
+$.getJSON('json/text.json', function(data) {
+    var lng = $('html').attr('lang');
+    var items = [];
+    $.each(data[lng], function(key, val) {
+        $("span." + key).html(val);
+    });
+});

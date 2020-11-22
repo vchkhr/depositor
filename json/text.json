@@ -1,0 +1,22 @@
+{
+    "en": {
+        "text_depositcalculator": "Deposit Calculator",
+        "text_conditions": "Conditions",
+        "text_currency": "Currency",
+        "text_rate": "Rate",
+        "text_term": "Term",
+        "text_mth": "m’th",
+        "text_sum": "Sum",
+        "text_capitalization": "Capitalization",
+        "text_no": "no",
+        "text_yes": "yes",
+        "text_tax": "Tax",
+        "text_results": "Results",
+        "text_profitpermonth": "Profit per month",
+        "text_profitforthewholeperiod": "Profit for the whole period",
+        "text_total": "Total",
+        "text_reportforeachmonth": "Report for each month",
+        "text_feedback": "Feedback",
+        "text_license": "License"
+    }
+}
