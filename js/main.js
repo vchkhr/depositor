@@ -95,10 +95,10 @@ function calculate() {
     }
 }
 
-$.getJSON('json/text.json', function(data) {
+$.getJSON('json/text.json', function (data) {
     var lng = $('html').attr('lang');
     var items = [];
-    $.each(data[lng], function(key, val) {
+    $.each(data[lng], function (key, val) {
         $("span." + key).html(val);
     });
 });

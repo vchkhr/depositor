@@ -10,8 +10,23 @@
     text-align: center;
 }
 
-header, article, footer {
-    margin-top: 25px; margin-bottom: 25px;
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+header,
+article,
+footer {
+    margin-top   : 25px;
+    margin-bottom: 25px;
+}
+
+footer p {
+    font-size: 80%;
 }
 
 article div.width-help span {
