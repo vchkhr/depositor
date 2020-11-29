@@ -17,6 +17,26 @@
         "text_total": "Total",
         "text_reportforeachmonth": "Report for each month",
         "text_feedback": "Feedback",
-        "text_license": "License"
+        "text_donate": "Buy me a coffee"
+    },
+    "ru": {
+        "text_depositcalculator": "Депозитный калькулятор",
+        "text_conditions": "Условия",
+        "text_currency": "Валюта",
+        "text_rate": "Ставка",
+        "text_term": "Срок",
+        "text_mth": "мес.",
+        "text_sum": "Сумма",
+        "text_capitalization": "Капитализация",
+        "text_no": "нет",
+        "text_yes": "да",
+        "text_tax": "Налог",
+        "text_results": "Результаты",
+        "text_profitpermonth": "Прибыль в месяц",
+        "text_profitforthewholeperiod": "Прибыль за весь период",
+        "text_total": "Всего",
+        "text_reportforeachmonth": "Отчёт за каждый период",
+        "text_feedback": "Обратная связь",
+        "text_license": "Купить мне кофе"
     }
 }
