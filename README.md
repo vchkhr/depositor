@@ -3,8 +3,6 @@ Advanced deposit calculator with options to select currency, capitalization, tax
 
 ![Deposit Calculator Demo](https://raw.githubusercontent.com/vchkhr/deposit-calculator/main/img/demo.png)
 
-Easily check driving directions, road surfaces and building types from one service to another.
-
 ## How to Try
 Just open [vchkhr.github.io/deposit-calculator](https://vchkhr.github.io/deposit-calculator).
 
