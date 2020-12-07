@@ -35,8 +35,28 @@
         "text_profitpermonth": "Прибыль в месяц",
         "text_profitforthewholeperiod": "Прибыль за весь период",
         "text_total": "Всего",
-        "text_reportforeachmonth": "Отчёт за каждый период",
+        "text_reportforeachmonth": "Отчёт за каждый месяц",
         "text_feedback": "Обратная связь",
         "text_license": "Купить мне кофе"
+    },
+    "uk": {
+        "text_depositcalculator": "Депозитний калькулятор",
+        "text_conditions": "Умови",
+        "text_currency": "Валюта",
+        "text_rate": "Ставка",
+        "text_term": "Термін",
+        "text_mth": "міс.",
+        "text_sum": "Сума",
+        "text_capitalization": "Капіталізація",
+        "text_no": "ні",
+        "text_yes": "так",
+        "text_tax": "Податок",
+        "text_results": "Результати",
+        "text_profitpermonth": "Пробуток на місяць",
+        "text_profitforthewholeperiod": "Прибуток за весь період",
+        "text_total": "Всього",
+        "text_reportforeachmonth": "Звіт за кожен місяць",
+        "text_feedback": "Зворотній зв'язок",
+        "text_license": "Купити мені каву"
     }
 }

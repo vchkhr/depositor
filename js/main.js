@@ -95,7 +95,7 @@ function calculate() {
     }
 }
 
-$.getJSON('json/text.json', function (data) {
+$.getJSON('https://vchkhr.github.io/json/text.json', function (data) {
     var lng = $('html').attr('lang');
     var items = [];
     $.each(data[lng], function (key, val) {
