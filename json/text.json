@@ -17,7 +17,8 @@
         "text_total": "Total",
         "text_reportforeachmonth": "Report for each month",
         "text_feedback": "Feedback",
-        "text_donate": "Buy me a coffee"
+        "text_donate": "Buy me a coffee",
+        "text_resultwillbedisplayedafterinput": "Result will be displayed after input in conditions.",
     },
     "ru": {
         "text_depositcalculator": "Депозитный калькулятор",
