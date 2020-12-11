@@ -139,16 +139,10 @@
                             <div class="form-group row">
                                 <label for="tax" class="col-sm-4 col-form-label"><span class="text_tax"></span></label>
                                 <div class="input-group col-sm-8">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="tax" id="tax-no" value="no"
-                                            onclick="calculate()" checked>
-                                        <label class="form-check-label" for="tax-no"><span
-                                                class="text_no"></span></label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="tax" id="tax-195"
-                                            value="19.5" onclick="calculate()">
-                                        <label class="form-check-label" for="tax-195">19.5%</label>
+                                    <input type="number" class="form-control" id="tax" step="0.5" oninput="calculate()"
+                                        placeholder="0">
+                                    <div class="input-group-append width-help">
+                                        <span class="input-group-text"><span>%</span></span>
                                     </div>
                                 </div>
                             </div>

@@ -1,3 +1,12 @@
+var lng = $('html').attr('lang');
+
+$.getJSON('json/text.json', function (data) {
+    var items = [];
+    $.each(data[lng], function (key, val) {
+        $("span." + key).html(val);
+    });
+});
+
 function showMonthly() {
     if ($("article form#result div.monthly textarea").hasClass("hidden") == true) {
         $("article form#result div.monthly textarea").removeClass("hidden");
@@ -12,7 +21,13 @@ function calculate() {
     var term = parseFloat($("article form#input input#term").val());
     var sum = parseFloat($("article form#input input#sum").val());
     var capital = $("article form#input input[name='capital']:checked").val();
-    var tax = $("article form#input input[name='tax']:checked").val();
+
+    if (lng == 'en' || lng == 'ru') {
+        var tax = $("article form#input input#tax").val();
+    }
+    else {
+        var tax = $("article form#input input[name='tax']:checked").val();
+    }
 
     var currencySym = $("article form#input input[name='currency']:checked").next().html();
     $("article span.currency").html(currencySym);
@@ -94,11 +109,3 @@ function calculate() {
         }
     }
 }
-
-$.getJSON('json/text.json', function (data) {
-    var lng = $('html').attr('lang');
-    var items = [];
-    $.each(data[lng], function (key, val) {
-        $("span." + key).html(val);
-    });
-});
