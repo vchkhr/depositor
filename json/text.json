@@ -37,7 +37,7 @@
         "text_total": "Всего",
         "text_reportforeachmonth": "Отчёт за каждый месяц",
         "text_feedback": "Обратная связь",
-        "text_license": "Купить мне кофе"
+        "text_donate": "Купить мне кофе"
     },
     "uk": {
         "text_depositcalculator": "Депозитний калькулятор",
@@ -57,6 +57,6 @@
         "text_total": "Всього",
         "text_reportforeachmonth": "Звіт за кожен місяць",
         "text_feedback": "Зворотній зв'язок",
-        "text_license": "Купити мені каву"
+        "text_donate": "Купити мені каву"
     }
 }
