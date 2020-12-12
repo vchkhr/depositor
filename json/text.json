@@ -1,6 +1,6 @@
 {
     "en": {
-        "text_depositcalculator": "Deposit Calculator",
+        "text_depositCalculator": "Deposit Calculator",
         "text_conditions": "Conditions",
         "text_currency": "Currency",
         "text_rate": "Rate",
@@ -12,16 +12,15 @@
         "text_yes": "yes",
         "text_tax": "Tax",
         "text_results": "Results",
-        "text_profitpermonth": "Profit per month",
-        "text_profitforthewholeperiod": "Profit for the whole period",
+        "text_profitPerMonth": "Profit per month",
+        "text_profitForTheWholePeriod": "Profit for the whole period",
         "text_total": "Total",
-        "text_reportforeachmonth": "Report for each month",
+        "text_reportForEachMonth": "Report for each month",
         "text_feedback": "Feedback",
-        "text_donate": "Buy me a coffee",
-        "text_resultwillbedisplayedafterinput": "Result will be displayed after input in conditions.",
+        "text_donate": "Buy me a coffee"
     },
     "ru": {
-        "text_depositcalculator": "Депозитный калькулятор",
+        "text_depositCalculator": "Депозитный калькулятор",
         "text_conditions": "Условия",
         "text_currency": "Валюта",
         "text_rate": "Ставка",
@@ -33,15 +32,15 @@
         "text_yes": "да",
         "text_tax": "Налог",
         "text_results": "Результаты",
-        "text_profitpermonth": "Прибыль в месяц",
-        "text_profitforthewholeperiod": "Прибыль за весь период",
+        "text_profitPerMonth": "Прибыль в месяц",
+        "text_profitForTheWholePeriod": "Прибыль за весь период",
         "text_total": "Всего",
-        "text_reportforeachmonth": "Отчёт за каждый месяц",
+        "text_reportForEachMonth": "Отчёт за каждый месяц",
         "text_feedback": "Обратная связь",
         "text_donate": "Купить мне кофе"
     },
     "uk": {
-        "text_depositcalculator": "Депозитний калькулятор",
+        "text_depositCalculator": "Депозитний калькулятор",
         "text_conditions": "Умови",
         "text_currency": "Валюта",
         "text_rate": "Ставка",
@@ -53,10 +52,10 @@
         "text_yes": "так",
         "text_tax": "Податок",
         "text_results": "Результати",
-        "text_profitpermonth": "Прибуток на місяць",
-        "text_profitforthewholeperiod": "Прибуток за весь період",
+        "text_profitPerMonth": "Прибуток на місяць",
+        "text_profitForTheWholePeriod": "Прибуток за весь період",
         "text_total": "Всього",
-        "text_reportforeachmonth": "Звіт за кожен місяць",
+        "text_reportForEachMonth": "Звіт за кожен місяць",
         "text_feedback": "Зворотній зв'язок",
         "text_donate": "Купити мені каву"
     }

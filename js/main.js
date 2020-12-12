@@ -7,6 +7,8 @@ $.getJSON('json/text.json', function (data) {
     });
 });
 
+console.log(lng);
+
 function showMonthly() {
     if ($("article form#result div.monthly textarea").hasClass("hidden") == true) {
         $("article form#result div.monthly textarea").removeClass("hidden");
