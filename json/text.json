@@ -17,7 +17,7 @@
         "text_total": "Total",
         "text_reportForEachMonth": "Report for each month",
         "text_feedback": "Feedback",
-        "text_donate": "Buy me a coffee"
+        "text_donate": "Donate"
     },
     "ru": {
         "text_depositCalculator": "Депозитный калькулятор",
@@ -37,7 +37,7 @@
         "text_total": "Всего",
         "text_reportForEachMonth": "Отчёт за каждый месяц",
         "text_feedback": "Обратная связь",
-        "text_donate": "Купить мне кофе"
+        "text_donate": "Донат"
     },
     "uk": {
         "text_depositCalculator": "Депозитний калькулятор",
@@ -57,6 +57,6 @@
         "text_total": "Всього",
         "text_reportForEachMonth": "Звіт за кожен місяць",
         "text_feedback": "Зворотній зв'язок",
-        "text_donate": "Купити мені каву"
+        "text_donate": "Донат"
     }
 }
