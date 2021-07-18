@@ -31,6 +31,12 @@ function calculate() {
         var tax = $("article form#input input[name='tax']:checked").val();
     }
 
+    if (term <= 1) {
+        $("article form#input div.capital").addClass("hidden");
+    } else {
+        $("article form#input div.capital").removeClass("hidden");
+    }
+
     var currencySym = $("article form#input input[name='currency']:checked").next().html();
     $("article span.currency").html(currencySym);
 
@@ -62,7 +68,7 @@ function calculate() {
             for (i = 1; i <= term; i++) {
                 subTotal += profitMonth;
                 subProfit = subTotal - sum;
-                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + "=" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
+                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + " = " + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
             }
 
             var profit = subProfit;
@@ -74,7 +80,7 @@ function calculate() {
             for (i = 1; i <= term; i++) {
                 subProfit = subTotal * rate * 0.01 / 12;
                 subTotal += subProfit;
-                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + "=" + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
+                monthlyText += "#" + i + ": +" + Math.floor(subProfit * 100) / 100 + " = " + Math.floor(subTotal * 100) / 100 + " " + currencySym + "&#13;&#10;";
             }
 
             var profit = subTotal - sum;
