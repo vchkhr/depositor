@@ -1,6 +1,6 @@
 {
     "en": {
-        "text_depositCalculator": "Deposit Calculator",
+        "text_depositCalculator": "Depositor",
         "text_conditions": "Conditions",
         "text_currency": "Currency",
         "text_rate": "Rate",
@@ -20,7 +20,7 @@
         "text_donate": "Donate"
     },
     "ru": {
-        "text_depositCalculator": "Депозитный калькулятор",
+        "text_depositCalculator": "Depositor",
         "text_conditions": "Условия",
         "text_currency": "Валюта",
         "text_rate": "Ставка",
@@ -40,7 +40,7 @@
         "text_donate": "Донат"
     },
     "uk": {
-        "text_depositCalculator": "Депозитний калькулятор",
+        "text_depositCalculator": "Depositor",
         "text_conditions": "Умови",
         "text_currency": "Валюта",
         "text_rate": "Ставка",
