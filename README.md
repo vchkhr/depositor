@@ -4,7 +4,7 @@ Advanced Depositor with options to select currency, capitalization, tax, enter r
 ![Depositor Demo](https://raw.githubusercontent.com/vchkhr/depositor/main/img/demo.png)
 
 ## How to Try
-Just open [depositor.vchkhr.com/](https://depositor.vchkhr.com/).
+Just open [depositor.vchkhr.com](https://depositor.vchkhr.com/).
 
 ## How to Use
 In the input section select currency, enter rate, term and sum. You will see the result in the right corner. You can also toggle capitalization and tax rate.\
