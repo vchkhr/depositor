@@ -1,5 +1,5 @@
 # [Depositor](https://depositor.vchkhr.com/)
-Advanced Depositor with options to select currency, capitalization, tax, enter rate, term, amount and get detailed report with total profit, profit per month, total result and monthly report
+Advanced Depositor with options to select currency, capitalization, tax, enter rate, term, amount and get detailed report with total profit, profit per month, total result and monthly report.
 
 ![Depositor Demo](https://raw.githubusercontent.com/vchkhr/depositor/main/img/demo.png)
 
